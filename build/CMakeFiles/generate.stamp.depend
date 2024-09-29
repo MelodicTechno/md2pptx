@@ -1,0 +1,25 @@
+# CMake generation dependency list for this directory.
+D:/D/repo/md2pptx/CMakeLists.txt
+D:/D/repo/md2pptx/build/CMakeFiles/3.29.2/CMakeCCompiler.cmake
+D:/D/repo/md2pptx/build/CMakeFiles/3.29.2/CMakeCXXCompiler.cmake
+D:/D/repo/md2pptx/build/CMakeFiles/3.29.2/CMakeRCCompiler.cmake
+D:/D/repo/md2pptx/build/CMakeFiles/3.29.2/CMakeSystem.cmake
+D:/F/cmake/share/cmake-3.29/Modules/CMakeCInformation.cmake
+D:/F/cmake/share/cmake-3.29/Modules/CMakeCXXInformation.cmake
+D:/F/cmake/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake
+D:/F/cmake/share/cmake-3.29/Modules/CMakeGenericSystem.cmake
+D:/F/cmake/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake
+D:/F/cmake/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake
+D:/F/cmake/share/cmake-3.29/Modules/CMakeRCInformation.cmake
+D:/F/cmake/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake
+D:/F/cmake/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake
+D:/F/cmake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/F/cmake/share/cmake-3.29/Modules/Compiler/MSVC-C.cmake
+D:/F/cmake/share/cmake-3.29/Modules/Compiler/MSVC-CXX.cmake
+D:/F/cmake/share/cmake-3.29/Modules/Compiler/MSVC.cmake
+D:/F/cmake/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake
+D:/F/cmake/share/cmake-3.29/Modules/Platform/Windows-MSVC-C.cmake
+D:/F/cmake/share/cmake-3.29/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/F/cmake/share/cmake-3.29/Modules/Platform/Windows-MSVC.cmake
+D:/F/cmake/share/cmake-3.29/Modules/Platform/Windows.cmake
+D:/F/cmake/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake

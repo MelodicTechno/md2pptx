@@ -1,5 +1,5 @@
 #include "markdown/MarkdownFile.hpp"
-bool MarkdownFile::readFile()
+bool md::MarkdownFile::readFile()
 {
     std::ifstream inFile(filePath);
     if (!inFile)
@@ -16,4 +16,12 @@ bool MarkdownFile::readFile()
 
     inFile.close();
     return true;
+}
+
+void md::MarkdownFile::displayContent() const
+{
+    for (const auto& line : content)
+    {
+        std::cout << line << std::endl;
+    }
 }

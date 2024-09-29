@@ -1,0 +1,3 @@
+D:/D/repo/md2pptx/build/CMakeFiles/MarkdownToPPTX.dir
+D:/D/repo/md2pptx/build/CMakeFiles/ALL_BUILD.dir
+D:/D/repo/md2pptx/build/CMakeFiles/ZERO_CHECK.dir
