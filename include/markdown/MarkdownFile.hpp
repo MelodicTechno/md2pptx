@@ -1,16 +1,17 @@
 #pragma once
 
 #include <string>
+#include <iostream>
 #include <vector>
 #include <fstream>
 
 class MarkdownFile
 {
 private:
-    std::string file_path;
+    std::string filePath;
     std::vector<std::string> content;
 public:
-    MarkdownFile(std::string& path) : file_path(path) {};
+    MarkdownFile(std::string& path) : filePath(path) {};
     ~MarkdownFile();
 
     bool readFile();
