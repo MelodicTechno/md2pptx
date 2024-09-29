@@ -3,6 +3,5 @@ project(MarkdownToPPTX)
 
 set(CMAKE_CXX_STANDARD 11)
 
-# include_directories(include)
-add_executable(MarkdownToPPTX src/MarkdownParser.cpp src/PPTXCreator.cpp main.cpp)
-# find_package(XlsxWriter REQUIRED)
+include_directories("${PROJECT_SOURCE_DIR}/include")
+add_executable(MarkdownToPPTX src/main.cpp)

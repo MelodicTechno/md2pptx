@@ -1,4 +1,4 @@
-#include "../../include/markdown/MarkdownFile.hpp"
+#include "markdown/MarkdownFile.hpp"
 bool MarkdownFile::readFile()
 {
     std::ifstream inFile(filePath);
