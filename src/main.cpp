@@ -6,4 +6,5 @@ int main()
     md::MarkdownFile file(path);
     file.readFile();
     file.displayContent();
+    std::cout << file.getFilePath();
 }

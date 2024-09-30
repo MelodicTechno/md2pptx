@@ -21,7 +21,7 @@ namespace md
         // void appendLine(const std::string &line);
         // void clearContent();
         void displayContent() const;
-        // std::string getFilePath() const;
+        std::string getFilePath() const;
         // void setFilePath(const std::string &path);
     };
 }

@@ -25,3 +25,8 @@ void md::MarkdownFile::displayContent() const
         std::cout << line << std::endl;
     }
 }
+
+std::string md::MarkdownFile::getFilePath() const
+{
+    return filePath;
+}
