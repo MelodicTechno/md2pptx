@@ -1,8 +1,5 @@
-/*
-Test the code
-*/
-
 #include "markdown/MarkdownFile.hpp"
+#include "maddy/blockparser.h"
 
 int main()
 {
