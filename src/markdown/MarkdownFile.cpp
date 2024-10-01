@@ -30,3 +30,16 @@ std::string md::MarkdownFile::getFilePath() const
 {
     return filePath;
 }
+
+void md::MarkdownFile::appendLine(const std::string &line)
+{
+    std::ofstream outFile(filePath, std::ios::app);
+    if (!outFile)
+    {
+        std::cerr << "Error: could not open the file: " << filePath << std::endl;
+        return;
+    }
+    outFile << line;
+    outFile.close();
+    std::cout << "Wrote: " << line << " successfully" << std::endl;
+}

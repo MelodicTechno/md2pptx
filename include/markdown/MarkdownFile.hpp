@@ -18,7 +18,7 @@ namespace md
 
         bool readFile();
         // bool writeFile();
-        // void appendLine(const std::string &line);
+        void appendLine(const std::string &line);
         // void clearContent();
         void displayContent() const;
         std::string getFilePath() const;

@@ -317,7 +317,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\D\repo\md2pptx\src\main.cpp" />
+    <ClCompile Include="D:\D\repo\md2pptx\src\test.cpp" />
     <ClCompile Include="D:\D\repo\md2pptx\src\markdown\MarkdownFile.cpp" />
   </ItemGroup>
   <ItemGroup>

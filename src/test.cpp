@@ -10,5 +10,8 @@ int main()
     md::MarkdownFile file(path);
     file.readFile();
     file.displayContent();
-    std::cout << file.getFilePath();
+    std::cout << file.getFilePath() << std::endl;
+    file.appendLine("\nHello, world!");
+    file.readFile();
+    file.displayContent();
 }
