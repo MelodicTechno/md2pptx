@@ -14,7 +14,7 @@ namespace md
         std::vector<std::string> content;
 
     public:
-        MarkdownFile(std::string &path) : filePath(path) {};
+        MarkdownFile(const std::string &path) : filePath(path) {};
 
         bool readFile();
         // bool writeFile();

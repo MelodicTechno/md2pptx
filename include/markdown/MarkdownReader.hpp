@@ -1,17 +1,16 @@
 #pragma once
-class MarkdownReader
-{
-private:
-    /* data */
-public:
-    MarkdownReader(/* args */);
-    ~MarkdownReader();
-};
 
-MarkdownReader::MarkdownReader(/* args */)
+#include "MarkdownFile.hpp"
+namespace md
 {
-}
+    class MarkdownReader
+    {
+    private:
+        md::MarkdownFile file;
 
-MarkdownReader::~MarkdownReader()
-{
+    public:
+        MarkdownReader(const md::MarkdownFile& file) : file(file) {};
+        MarkdownReader(const std::string& filePath) : file(filePath) {};
+        void read();
+    };
 }

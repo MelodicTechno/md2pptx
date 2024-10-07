@@ -11,7 +11,7 @@ int main()
     file.readFile();
     file.displayContent();
     std::cout << file.getFilePath() << std::endl;
-    file.appendLine("\nHello, world!");
-    file.readFile();
-    file.displayContent();
+    // file.appendLine("\nHello, world!");
+    // file.readFile();
+    // file.displayContent();
 }

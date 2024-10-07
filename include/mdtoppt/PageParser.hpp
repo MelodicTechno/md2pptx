@@ -15,8 +15,8 @@ namespace maddy
         PageParser() : pageNo(1) {}
         void Parse(std::string &line) override
         {
-            // new page with +----+
-            static const std::regex re(R"(^\s*+----+\s*$)", std::regex_constants::ECMAScript);
+            // new page with +++
+            static const std::regex re(R"(^\s*+++\s*$)", std::regex_constants::ECMAScript);
             // <page number="pageNo"\>
             std::string replacement = "<page number=\"" + std::to_string(pageNo) + "\">";
 
