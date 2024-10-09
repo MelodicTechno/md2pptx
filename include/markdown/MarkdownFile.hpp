@@ -22,6 +22,6 @@ namespace md
         void displayContent() const;
         std::string getFilePath() const;
         // void setFilePath(const std::string &path);
-        std::string output() const;
+        std::vector<std::string> output() const;
     };
 }

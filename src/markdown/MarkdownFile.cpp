@@ -1,4 +1,5 @@
 #include "markdown/MarkdownFile.hpp"
+
 bool md::MarkdownFile::readFile()
 {
     std::ifstream inFile(filePath);
@@ -44,7 +45,7 @@ void md::MarkdownFile::appendLine(const std::string &line)
     std::cout << "Wrote: " << line << " successfully" << std::endl;
 }
 
-std::string md::MarkdownFile::output() const
+std::vector<std::string> md::MarkdownFile::output() const
 {
-    
+    return content;
 }
