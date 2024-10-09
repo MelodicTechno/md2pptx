@@ -12,7 +12,6 @@ namespace md
     private:
         std::string filePath;
         std::vector<std::string> content;
-
     public:
         MarkdownFile(const std::string &path) : filePath(path) {};
 
@@ -23,5 +22,6 @@ namespace md
         void displayContent() const;
         std::string getFilePath() const;
         // void setFilePath(const std::string &path);
+        std::string output() const;
     };
 }

@@ -43,3 +43,8 @@ void md::MarkdownFile::appendLine(const std::string &line)
     outFile.close();
     std::cout << "Wrote: " << line << " successfully" << std::endl;
 }
+
+std::string md::MarkdownFile::output() const
+{
+    
+}
